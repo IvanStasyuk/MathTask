@@ -8,14 +8,16 @@ namespace MathTask
 {
     public class Geometry
     {
-        public static void RectangleArea(int a, int b)
+        public int RectangleArea(int a, int b)
         {
-            a = 3;
-            b = 5;
-            int expected = 15;
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(expected);
+            return a * b;
+        }
+    }
+    public class GeometryBarrel
+    {
+        public double BarrelArea(double pi, double b, double c)
+        {
+            return pi * b * c;
         }
     }
 }
