@@ -12,7 +12,7 @@ namespace MathTask
         {
             int a = 3;
             int b = 5;
-            int expected = a * b;
+            int expected = 15;
         }
     }
 }
