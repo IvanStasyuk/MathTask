@@ -8,11 +8,14 @@ namespace MathTask
 {
     public class Geometry
     {
-        static public void RectangleArea(int x)
+        public static void RectangleArea(int a, int b)
         {
-            int a = 3;
-            int b = 5;
+            a = 3;
+            b = 5;
             int expected = 15;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(expected);
         }
     }
 }
